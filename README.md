@@ -7,4 +7,6 @@ The pipeline produces two major outputs: (i) a complete set of functionally anno
 The annotation workflow can be applied to any set of isolate genomes or Metagenome Assembled Genomes (MAGs) and requires as an input: i) nucleotide genomic sequences (FNA), ii) amino acid proteomes (FAA), and iii) simple taxonomic names provided for each target genome (species and genus). The workflow is composed of three major steps:
 1. Danatello is a DIAMOND-based annotation pipeline used to propagate mcSEED annotations to the proteomes (FAA) of each target genome.
 2. Mash groups is a script designed to collect taxonomically-annotated groups of mcSEED reference genomes based on their corresponding mash distances to each target genome (FNA)
-3. Phenotype Propagator is a   
+3. Phenotype Propagator is a
+##   Step 1.
+   
