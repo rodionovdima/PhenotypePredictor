@@ -1,4 +1,4 @@
-# mash_mag_group
+# mash_groups
 Mash groups is a script designed to collect taxonomically-annotated groups of mcSEED reference genomes based on their corresponding mash distances to each target genome/MAG (FNA)
 
 ## Prerequisites:
