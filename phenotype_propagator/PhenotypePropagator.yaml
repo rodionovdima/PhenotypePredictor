@@ -1,0 +1,15 @@
+root_dir: "/home/drodionov/Work_dir/PhenotypePropagator-main"
+
+# Input data & output dir
+annotation_dir: "input/annotation"
+groups_dir: "input/mash_groups"
+annotation_table: "input/annotations_simple.xlsx"
+output_dir: "output"
+
+# Sys data
+model_dir: "sysdata/MLmodels"
+training_dir: "sysdata/train/noGenomeID"
+training_dir_genomeid: "sysdata/train/withGenomeID"
+subs_ref: "sysdata/SubsystemPhenotypeRef.csv"
+functional_roles: "sysdata/train/functional_roles.txt"
+pattern_roles: "sysdata/Functional_roles_curation.csv"
