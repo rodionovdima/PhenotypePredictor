@@ -1,9 +1,8 @@
-root_dir: "/home/drodionov/Work_dir/PhenotypePropagator-main"
+root_dir: "/home/drodionov/PhenotypePredictor/phenotype_propagator"
 
 # Input data & output dir
 annotation_dir: "input/annotation"
 groups_dir: "input/mash_groups"
-annotation_table: "input/annotations_simple.xlsx"
 output_dir: "output"
 
 # Sys data

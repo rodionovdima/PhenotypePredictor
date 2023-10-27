@@ -1,0 +1,219 @@
+ID	Winner	Score	Region_len	Win_votes	All_votes	Region_max_ident	R_left	R_right	Identity_thr
+FKABAFCN_00046	Histidinol-phosphate aminotransferase (EC 2.6.1.9)	1.00	340	5	5	99.70	1	341	81.00
+FKABAFCN_00073	Vitamin B12 ABC transporter, permease component BtuC	1.00	337	5	5	100.00	1	338	82.00
+FKABAFCN_00074	Vitamin B12 ABC transporter, B12-binding component BtuF	1.00	352	5	5	100.00	24	376	82.00
+FKABAFCN_00079	Glutamate synthase [NADPH] small chain (EC 1.4.1.13)	1.00	758	2	2	99.90	10	768	83.00
+FKABAFCN_00086	Demethylmenaquinone methyltransferase (EC 2.1.1.163)	1.00	243	5	5	100.00	1	244	92.00
+FKABAFCN_00087	Shikimate 5-dehydrogenase I alpha (EC 1.1.1.25)	1.00	248	5	5	100.00	1	249	91.00
+FKABAFCN_00106	alpha-L-fucosidase (EC 3.2.1.51)	0.60	500	3	5	99.80	23	523	82.00
+FKABAFCN_00108	beta-N-acetylglucosaminidase (EC 3.2.1.52)	0.67	542	2	3	99.60	1	543	82.00
+FKABAFCN_00145	4-hydroxy-tetrahydrodipicolinate synthase (EC 4.3.3.7)	1.00	292	100	100	100.00	1	293	68.00
+FKABAFCN_00152	1,4-dihydroxy-2-naphthoate polyprenyltransferase (EC 2.5.1.74)	1.00	318	5	5	99.40	1	319	81.00
+FKABAFCN_00179	Beta-galactosidase (EC 3.2.1.23)	1.00	621	4	4	99.70	1	622	87.00
+FKABAFCN_00240	7-cyano-7-deazaguanine synthase (EC 6.3.4.20)	1.00	214	100	100	77.70	3	217	63.10
+FKABAFCN_00241	6-carboxy-5,6,7,8-tetrahydropterin synthase (EC 4.1.2.50)	0.66	108	100	152	79.50	2	110	56.90
+FKABAFCN_00242	7-carboxy-7-deazaguanine synthase (EC 4.3.99.3)	1.00	192	100	100	60.60	3	195	44.00
+FKABAFCN_00243	GTP cyclohydrolase I (EC 3.5.4.16) type 1	1.00	69	6	6	77.90	19	88	58.00
+FKABAFCN_00243	GTP cyclohydrolase I (EC 3.5.4.16) type 1	1.00	95	7	7	77.90	88	183	58.00
+FKABAFCN_00262	Riboflavin synthase eubacterial/eukaryotic (EC 2.5.1.9)	1.00	200	5	5	100.00	1	201	93.00
+FKABAFCN_00351	3,4-dihydroxy-2-butanone 4-phosphate synthase (EC 4.1.99.12)	0.50	400	100	200	99.80	1	401	75.50
+FKABAFCN_00351	GTP cyclohydrolase II (EC 3.5.4.25)	0.50	400	100	200	99.80	1	401	75.50
+FKABAFCN_00356	Maltodextrin glucosidase (EC 3.2.1.20)	0.97	130	54	56	98.90	1	131	78.00
+FKABAFCN_00356	Maltodextrin glucosidase (EC 3.2.1.20)	0.93	132	57	61	98.90	131	263	78.00
+FKABAFCN_00378	Cysteine synthase (EC 2.5.1.47)	1.00	314	5	5	99.00	1	315	93.00
+FKABAFCN_00430	Nicotinate phosphoribosyltransferase (EC 6.3.4.21)	0.60	123	3	5	99.20	1	124	95.00
+FKABAFCN_00433	6-carboxy-5,6,7,8-tetrahydropterin synthase (EC 4.1.2.50)	1.00	127	2	2	99.30	14	141	80.00
+FKABAFCN_00434	7-carboxy-7-deazaguanine synthase (EC 4.3.99.3)	1.00	193	5	5	100.00	1	194	77.00
+FKABAFCN_00438	Alpha-ribazole-5'-phosphate phosphatase (EC 3.1.3.73)	1.00	167	5	5	100.00	9	176	86.00
+FKABAFCN_00459	Dihydrofolate synthase (EC 6.3.2.12)	1.00	425	5	5	99.80	1	426	86.00
+FKABAFCN_00492	Trehalase (EC 3.2.1.28)	1.00	551	8	8	100.00	5	556	91.00
+FKABAFCN_00495	SusC, outer membrane protein involved in beta-glucoside binding	0.51	451	1	2	98.30	1	452	80.00
+FKABAFCN_00539	Maltodextrin glucosidase (EC 3.2.1.20)	0.96	65	52	54	100.00	1	66	80.00
+FKABAFCN_00539	Maltodextrin glucosidase (EC 3.2.1.20)	0.93	122	52	56	100.00	66	188	80.00
+FKABAFCN_00539	Maltodextrin glucosidase (EC 3.2.1.20)	0.95	167	56	59	100.00	188	355	80.00
+FKABAFCN_00539	Maltodextrin glucosidase (EC 3.2.1.20)	1.00	66	56	56	100.00	355	421	80.00
+FKABAFCN_00553	Nicotinamidase (EC 3.5.1.19)	1.00	167	2	2	100.00	1	168	84.00
+FKABAFCN_00556	Quinolinate phosphoribosyltransferase [decarboxylating] (EC 2.4.2.19)	1.00	279	100	100	99.30	3	282	74.60
+FKABAFCN_00557	Quinolinate synthetase (EC 2.5.1.72)	1.00	332	5	5	100.00	1	333	90.00
+FKABAFCN_00558	L-aspartate oxidase (EC 1.4.3.16)	0.80	533	4	5	100.00	1	534	93.00
+FKABAFCN_00572	Mannose-6-phosphate isomerase (EC 5.3.1.8)	1.00	364	2	2	99.20	1	365	79.00
+FKABAFCN_00577	Arginine pathway regulatory protein ArgR, repressor of arg regulon	1.00	168	5	5	100.00	12	180	87.00
+FKABAFCN_00586	Phosphoribosylanthranilate isomerase (EC 5.3.1.24)	1.00	231	5	5	99.10	1	232	76.00
+FKABAFCN_00597	O-succinylhomoserine sulfhydrylase (EC 2.5.1.48)	1.00	422	5	5	100.00	1	423	92.00
+FKABAFCN_00607	Mannose-6-phosphate isomerase (EC 5.3.1.8)	1.00	319	5	5	100.00	1	320	88.00
+FKABAFCN_00619	Serine hydroxymethyltransferase (EC 2.1.2.1)	1.00	425	100	100	99.80	1	426	78.90
+FKABAFCN_00697	Meso-diaminopimelate D-dehydrogenase (EC 1.4.1.16)	1.00	39	99	99	100.00	1	40	73.60
+FKABAFCN_00697	Meso-diaminopimelate D-dehydrogenase (EC 1.4.1.16)	1.00	259	100	100	100.00	40	299	73.60
+FKABAFCN_00702	Biotin--protein ligase (EC 6.3.4.9)(EC 6.3.4.10)(EC 6.3.4.11)(EC 6.3.4.15)	1.00	261	5	5	99.20	1	262	83.00
+FKABAFCN_00709	GTP cyclohydrolase I (EC 3.5.4.16) type 1	1.00	195	100	100	99.50	1	196	76.50
+FKABAFCN_00726	NADPH-dependent 7-cyano-7-deazaguanine reductase (EC 1.7.1.13)	1.00	149	100	100	100.00	1	150	81.60
+FKABAFCN_00727	Putative preQ0 transporter YhhQ	1.00	178	100	100	100.00	1	179	65.20
+FKABAFCN_00727	Putative preQ0 transporter YhhQ	1.00	50	99	99	100.00	179	229	65.20
+FKABAFCN_00747	Aspartate--ammonia ligase (EC 6.3.1.1)	1.00	344	3	3	99.70	1	345	96.00
+FKABAFCN_00758	Dihydroneopterin aldolase (EC 4.1.2.25)	1.00	135	2	2	100.00	1	136	80.00
+FKABAFCN_00762	Predicted L-lactate dehydrogenase, Fe-S oxidoreductase subunit YkgE	1.00	242	5	5	99.60	1	243	89.00
+FKABAFCN_00763	Predicted L-lactate dehydrogenase, Iron-sulfur cluster-binding subunit YkgF	1.00	470	5	5	100.00	1	471	88.00
+FKABAFCN_00764	Predicted L-lactate dehydrogenase, hypothetical protein subunit YkgG	1.00	190	5	5	100.00	1	191	84.00
+FKABAFCN_00768	D-3-phosphoglycerate dehydrogenase (EC 1.1.1.95)	1.00	318	5	5	99.40	1	319	85.00
+FKABAFCN_00775	Aminodeoxychorismate lyase (EC 4.1.3.38)	1.00	101	2	2	97.90	1	102	80.00
+FKABAFCN_00775	Aminodeoxychorismate lyase (EC 4.1.3.38)	0.67	93	2	3	97.90	102	195	80.00
+FKABAFCN_00776	Para-aminobenzoate synthase, aminase component (EC 2.6.1.85)	1.00	324	5	5	99.70	1	325	86.00
+FKABAFCN_00789	Maltodextrin glucosidase (EC 3.2.1.20)	0.97	130	54	56	98.90	1	131	78.00
+FKABAFCN_00789	Maltodextrin glucosidase (EC 3.2.1.20)	0.93	132	57	61	98.90	131	263	78.00
+FKABAFCN_00792	7-cyano-7-deazaguanine synthase (EC 6.3.4.20)	1.00	216	5	5	100.00	1	217	92.00
+FKABAFCN_00829	Thiamin-phosphate pyrophosphorylase (EC 2.5.1.3)	0.67	193	2	3	98.50	1	194	75.00
+FKABAFCN_00830	Thiazole biosynthetic enzyme Thi4	1.00	65	54	54	100.00	1	66	73.00
+FKABAFCN_00830	Thiazole biosynthetic enzyme Thi4	1.00	190	54	54	100.00	66	256	73.00
+FKABAFCN_00831	Phosphomethylpyrimidine synthase ThiC (EC 4.1.99.17)	1.00	518	100	100	99.80	3	521	70.70
+FKABAFCN_00832	Thiamin-phosphate pyrophosphorylase (EC 2.5.1.3)	1.00	201	5	5	100.00	5	206	82.00
+FKABAFCN_00833	Hydroxymethylpyrimidine phosphate kinase ThiD (EC 2.7.4.7)	1.00	270	5	5	100.00	1	271	80.00
+FKABAFCN_00843	Lipoyl synthase (EC 2.8.1.8)	0.71	605	5	7	99.70	1	606	89.00
+FKABAFCN_00846	4-hydroxy-3-methylbut-2-enyl diphosphate reductase (EC 1.17.7.4)	0.60	303	3	5	99.70	1	304	90.00
+FKABAFCN_00855	Pantoate--beta-alanine ligase (EC 6.3.2.1)	1.00	285	5	5	99.60	5	290	90.00
+FKABAFCN_00856	Aspartate 1-decarboxylase (EC 4.1.1.11)	1.00	112	100	100	100.00	1	113	81.40
+FKABAFCN_00857	Biotin carboxyl carrier protein => methylmalonyl-CoA decarboxylase	1.00	108	5	5	99.10	1	109	89.00
+FKABAFCN_00859	Methylmalonyl-CoA decarboxylase, alpha chain (EC 4.1.1.41)	1.00	519	100	100	99.80	1	520	78.90
+FKABAFCN_00864	3-methyl-2-oxobutanoate hydroxymethyltransferase (EC 2.1.2.11)	1.00	253	5	5	99.60	1	254	90.00
+FKABAFCN_00866	4-diphosphocytidyl-2-C-methyl-D-erythritol kinase (EC 2.7.1.148)	1.00	277	5	5	100.00	3	280	85.00
+FKABAFCN_00870	Beta-1,4-mannooligosaccharide phosphorylase (EC 2.4.1.319)	0.93	175	26	28	100.00	5	180	75.00
+FKABAFCN_00870	Beta-1,4-mannooligosaccharide phosphorylase (EC 2.4.1.319)	0.90	143	25	28	100.00	180	323	75.00
+FKABAFCN_00871	putative alpha-1,2-mannosidase	1.00	750	5	5	99.90	1	751	89.00
+FKABAFCN_00872	beta-N-acetylglucosaminidase (EC 3.2.1.52)	0.67	681	2	3	99.00	10	691	77.00
+FKABAFCN_00873	Sialidase (EC 3.2.1.18)	1.00	545	5	5	99.50	1	546	85.00
+FKABAFCN_00874	putative alpha-1,2-mannosidase	1.00	713	5	5	99.70	3	716	88.00
+FKABAFCN_00878	Ketopantoate reductase PanG (EC 1.1.1.169)	1.00	259	5	5	99.60	1	260	78.00
+FKABAFCN_00883	Phosphoglucomutase (EC 5.4.2.2)	1.00	577	5	5	99.80	4	581	94.00
+FKABAFCN_00913	Mannose-6-phosphate isomerase (EC 5.3.1.8)	1.00	344	2	2	99.70	11	355	91.00
+FKABAFCN_00916	(2E,6E)-farnesyl diphosphate synthase (EC 2.5.1.10)	0.50	46	1	2	99.70	1	47	88.00
+FKABAFCN_00916	Dimethylallyltransferase (EC 2.5.1.1)	0.50	46	1	2	99.70	1	47	88.00
+FKABAFCN_00916	(2E,6E)-farnesyl diphosphate synthase (EC 2.5.1.10)	0.50	277	2	4	99.70	47	324	88.00
+FKABAFCN_00916	Dimethylallyltransferase (EC 2.5.1.1)	0.50	277	2	4	99.70	47	324	88.00
+FKABAFCN_00927	Aspartokinase (EC 2.7.2.4)	0.50	810	5	10	99.10	1	811	90.00
+FKABAFCN_00927	Homoserine dehydrogenase (EC 1.1.1.3)	0.50	810	5	10	99.10	1	811	90.00
+FKABAFCN_00949	Thiamin-regulated outer membrane receptor Omr1	1.00	791	5	5	99.10	1	792	85.00
+FKABAFCN_00950	Predicted thiamin transporter PnuT	1.00	207	5	5	100.00	1	208	85.00
+FKABAFCN_00951	Thiamin pyrophosphokinase (EC 2.7.6.2)	1.00	223	5	5	99.10	1	224	79.00
+FKABAFCN_00952	Epoxyqueuosine reductase (EC 1.17.99.6) QueG	1.00	312	5	5	100.00	1	313	85.00
+FKABAFCN_00959	Phosphoglucosamine mutase (EC 5.4.2.10)	0.50	423	100	200	100.00	1	424	73.50
+FKABAFCN_00959	Phosphomannomutase (EC 5.4.2.8)	0.50	423	100	200	100.00	1	424	73.50
+FKABAFCN_00959	Phosphoglucosamine mutase (EC 5.4.2.10)	0.50	39	99	198	100.00	424	463	73.50
+FKABAFCN_00959	Phosphomannomutase (EC 5.4.2.8)	0.50	39	99	198	100.00	424	463	73.50
+FKABAFCN_00977	Serine acetyltransferase (EC 2.3.1.30)	1.00	313	5	5	99.70	1	314	88.00
+FKABAFCN_01009	NAD synthetase (EC 6.3.1.5)	1.00	654	5	5	99.80	1	655	86.00
+FKABAFCN_01011	S-adenosylmethionine:tRNA ribosyltransferase-isomerase (EC 2.4.99.17)	1.00	422	5	5	100.00	1	423	92.00
+FKABAFCN_01044	2-amino-4-hydroxy-6-hydroxymethyldihydropteridine pyrophosphokinase (EC 2.7.6.3)	1.00	117	2	2	100.00	1	118	79.00
+FKABAFCN_01066	UDP-glucose 4-epimerase (EC 5.1.3.2)	1.00	343	100	100	100.00	1	344	73.70
+FKABAFCN_01074	Alpha-amylase (EC 3.2.1.1)	1.00	455	5	5	100.00	1	456	90.00
+FKABAFCN_01084	Aspartokinase (EC 2.7.2.4)	1.00	437	5	5	99.80	2	439	96.00
+FKABAFCN_01085	Diaminopimelate decarboxylase (EC 4.1.1.20)	1.00	382	5	5	99.70	1	383	86.00
+FKABAFCN_01095	3-phosphoshikimate 1-carboxyvinyltransferase (EC 2.5.1.19)	1.00	417	5	5	99.80	1	418	83.00
+FKABAFCN_01160	Beta-phosphoglucomutase (EC 5.4.2.6)	1.00	232	5	5	99.60	4	236	87.00
+FKABAFCN_01167	Aspartate aminotransferase (EC 2.6.1.1)	1.00	605	2	2	99.80	1	606	83.00
+FKABAFCN_01183	UDP-glucose 4-epimerase (EC 5.1.3.2)	1.00	338	2	2	99.70	1	339	90.00
+FKABAFCN_01188	Menaquinone-specific isochorismate synthase (EC 5.4.4.2)	1.00	337	5	5	99.10	13	350	76.00
+FKABAFCN_01189	2-succinyl-5-enolpyruvyl-6-hydroxy-3-cyclohexene-1-carboxylic-acid synthase (EC 2.2.1.9)	1.00	556	5	5	98.40	1	557	75.00
+FKABAFCN_01190	Naphthoate synthase (EC 4.1.3.36)	1.00	272	100	100	100.00	2	274	79.60
+FKABAFCN_01191	O-succinylbenzoate synthase (EC 4.2.1.113)	1.00	345	5	5	99.40	1	346	88.00
+FKABAFCN_01192	O-succinylbenzoic acid--CoA ligase (EC 6.2.1.26)	1.00	334	5	5	99.40	1	335	82.00
+FKABAFCN_01195	Riboflavin kinase (EC 2.7.1.26)	1.00	313	5	5	98.40	4	317	77.00
+FKABAFCN_01210	3-dehydroquinate synthase (EC 4.2.3.4)	1.00	347	5	5	99.70	1	348	87.00
+FKABAFCN_01217	Dephospho-CoA kinase (EC 2.7.1.24)	1.00	185	5	5	97.80	1	186	81.00
+FKABAFCN_01233	6,7-dimethyl-8-ribityllumazine synthase (EC 2.5.1.78)	1.00	157	100	100	100.00	1	158	68.40
+FKABAFCN_01249	Homoserine O-succinyltransferase (EC 2.3.1.46)	1.00	304	5	5	100.00	1	305	90.00
+FKABAFCN_01264	Phosphoserine aminotransferase (EC 2.6.1.52)	1.00	355	29	29	100.00	1	356	86.00
+FKABAFCN_01265	D-3-phosphoglycerate dehydrogenase (EC 1.1.1.95)	1.00	47	99	99	100.00	1	48	75.50
+FKABAFCN_01265	D-3-phosphoglycerate dehydrogenase (EC 1.1.1.95)	1.00	257	100	100	100.00	48	305	75.50
+FKABAFCN_01270	Glutamine synthetase type I (EC 6.3.1.2)	1.00	500	5	5	100.00	1	501	90.00
+FKABAFCN_01290	S-adenosylmethionine:tRNA ribosyltransferase-isomerase (EC 2.4.99.17)	1.00	53	35	35	100.00	1	54	81.00
+FKABAFCN_01290	S-adenosylmethionine:tRNA ribosyltransferase-isomerase (EC 2.4.99.17)	1.00	340	39	39	100.00	54	394	81.00
+FKABAFCN_01291	2-amino-4-hydroxy-6-hydroxymethyldihydropteridine pyrophosphokinase (EC 2.7.6.3)	1.00	135	5	5	99.30	1	136	82.00
+FKABAFCN_01294	Dihydrofolate reductase (EC 1.5.1.3)	1.00	161	5	5	100.00	1	162	82.00
+FKABAFCN_01306	Predicted UTP--glucose-1-phosphate uridylyltransferase (EC 2.7.7.9) & galactose-1-phosphate uridylyltransferase (EC 2.7.7.10)	0.96	302	96	100	99.70	1	303	74.60
+FKABAFCN_01330	Transporter, LysE family	1.00	232	5	5	99.60	6	238	90.00
+FKABAFCN_01331	Glucokinase (EC 2.7.1.2)	0.50	321	100	200	100.00	4	325	65.20
+FKABAFCN_01331	N-acetylglucosamine kinase, glucokinase-like (EC 2.7.1.59)	0.50	321	100	200	100.00	4	325	65.20
+FKABAFCN_01335	Nicotinate phosphoribosyltransferase (EC 6.3.4.21)	0.60	390	3	5	99.50	11	401	91.00
+FKABAFCN_01347	Queuine tRNA-ribosyltransferase (EC 2.4.2.29)	1.00	39	99	99	100.00	1	40	84.30
+FKABAFCN_01347	Queuine tRNA-ribosyltransferase (EC 2.4.2.29)	1.00	334	100	100	100.00	40	374	84.30
+FKABAFCN_01350	Pantothenate kinase type II, eukaryotic (EC 2.7.1.33)	1.00	281	5	5	100.00	1	282	94.00
+FKABAFCN_01355	Alpha-amylase (EC 3.2.1.1)	1.00	555	2	2	99.60	1	556	82.00
+FKABAFCN_01362	Chorismate synthase (EC 4.2.3.5)	1.00	360	5	5	100.00	1	361	88.00
+FKABAFCN_01367	Aspartate aminotransferase (EC 2.6.1.1)	1.00	399	5	5	99.50	1	400	94.00
+FKABAFCN_01409	2-keto-3-deoxy-D-arabino-heptulosonate-7-phosphate synthase I beta (EC 2.5.1.54)	0.50	321	100	200	99.70	33	354	72.00
+FKABAFCN_01409	Chorismate mutase I (EC 5.4.99.5)	0.50	321	100	200	99.70	33	354	72.00
+FKABAFCN_01413	Pyruvate formate-lyase activating enzyme (EC 1.97.1.4)	1.00	51	29	29	99.50	1	52	71.00
+FKABAFCN_01413	Pyruvate formate-lyase activating enzyme (EC 1.97.1.4)	1.00	152	30	30	99.50	52	204	71.00
+FKABAFCN_01427	4-hydroxythreonine-4-phosphate dehydrogenase (EC 1.1.1.262)	1.00	372	5	5	99.70	1	373	85.00
+FKABAFCN_01454	Outer membrane vitamin B12 receptor BtuB	1.00	696	5	5	99.30	1	697	79.00
+FKABAFCN_01460	putative alpha-1,2-mannosidase	1.00	754	5	5	99.70	7	761	88.00
+FKABAFCN_01605	Phosphopantothenoylcysteine decarboxylase (EC 4.1.1.36)	0.50	413	5	10	99.30	1	414	88.00
+FKABAFCN_01605	Phosphopantothenoylcysteine synthetase (EC 6.3.2.5)	0.50	413	5	10	99.30	1	414	88.00
+FKABAFCN_01675	Branched-chain amino acid aminotransferase (EC 2.6.1.42)	1.00	43	97	97	100.00	1	44	74.30
+FKABAFCN_01675	Branched-chain amino acid aminotransferase (EC 2.6.1.42)	1.00	293	100	100	100.00	44	337	74.30
+FKABAFCN_01681	N-acetyl-L,L-diaminopimelate deacetylase (EC 3.5.1.47)	1.00	378	2	2	99.70	8	386	89.00
+FKABAFCN_01691	N-acetylmuramic acid 6-phosphate etherase (EC 4.2.1.126)	1.00	268	5	5	100.00	1	269	89.00
+FKABAFCN_01701	Transcriptional repressor of aga operon	1.00	261	2	2	99.60	1	262	83.00
+FKABAFCN_01710	alpha-L-fucosidase (EC 3.2.1.51)	0.60	462	3	5	100.00	1	463	84.00
+FKABAFCN_01727	Thiamine-monophosphate kinase (EC 2.7.4.16)	1.00	366	5	5	99.20	1	367	87.00
+FKABAFCN_01732	L-threonine 3-dehydrogenase (EC 1.1.1.103)	1.00	318	5	5	100.00	1	319	94.00
+FKABAFCN_01733	2-amino-3-ketobutyrate coenzyme A ligase (EC 2.3.1.29)	1.00	393	100	100	100.00	1	394	88.60
+FKABAFCN_01747	Galactokinase (EC 2.7.1.6)	1.00	384	100	100	99.70	1	385	65.80
+FKABAFCN_01748	Galactose/glucose transporter, FHS family, MFS superfamily	1.00	133	4	4	99.80	1	134	90.00
+FKABAFCN_01748	Galactose/glucose transporter, FHS family, MFS superfamily	1.00	304	5	5	99.80	134	438	90.00
+FKABAFCN_01749	Aldose 1-epimerase (EC 5.1.3.3)	1.00	362	5	5	100.00	1	363	94.00
+FKABAFCN_01791	Aspartate-semialdehyde dehydrogenase (EC 1.2.1.11)	1.00	335	100	100	100.00	1	336	74.20
+FKABAFCN_01806	5-amino-6-(5-phosphoribosylamino)uracil reductase (EC 1.1.1.193)	0.50	290	5	10	99.60	24	314	83.00
+FKABAFCN_01806	Diaminohydroxyphosphoribosylaminopyrimidine deaminase (EC 3.5.4.26)	0.50	290	5	10	99.60	24	314	83.00
+FKABAFCN_01834	Vitamin B12 ABC transporter, ATPase component BtuD	1.00	243	4	4	99.60	8	251	81.00
+FKABAFCN_01837	Hydroxymethylpyrimidine phosphate kinase ThiD (EC 2.7.4.7)	1.00	318	5	5	99.70	1	319	80.00
+FKABAFCN_01838	Pyridoxal 5'-phosphate synthase (glutamine hydrolyzing), synthase subunit (EC 4.3.3.6)	1.00	289	100	100	100.00	2	291	83.50
+FKABAFCN_01839	Pyridoxal 5'-phosphate synthase (glutamine hydrolyzing), glutaminase subunit (EC 4.3.3.6)	1.00	191	5	5	99.00	1	192	84.00
+FKABAFCN_01845	Dihydropteroate synthase (EC 2.5.1.15)	1.00	263	5	5	99.30	7	270	89.00
+FKABAFCN_01847	Phosphate acetyltransferase (EC 2.3.1.8)	1.00	309	100	100	100.00	2	311	70.50
+FKABAFCN_01847	Phosphate acetyltransferase (EC 2.3.1.8)	1.00	35	99	99	100.00	311	346	70.50
+FKABAFCN_01848	Acetate kinase (EC 2.7.2.1)	1.00	397	5	5	100.00	4	401	96.00
+FKABAFCN_01854	Imidazolonepropionase (EC 3.5.2.7)	1.00	222	24	24	100.00	1	223	81.00
+FKABAFCN_01854	Imidazolonepropionase (EC 3.5.2.7)	1.00	188	23	23	100.00	223	411	81.00
+FKABAFCN_01855	Histidine ammonia-lyase (EC 4.3.1.3)	1.00	490	24	24	100.00	1	491	88.00
+FKABAFCN_01856	Urocanate hydratase (EC 4.2.1.49)	1.00	143	38	38	100.00	1	144	86.00
+FKABAFCN_01856	Urocanate hydratase (EC 4.2.1.49)	1.00	167	39	39	100.00	144	311	86.00
+FKABAFCN_01856	Urocanate hydratase (EC 4.2.1.49)	1.00	181	40	40	100.00	311	492	86.00
+FKABAFCN_01856	Urocanate hydratase (EC 4.2.1.49)	1.00	172	39	39	100.00	492	664	86.00
+FKABAFCN_01857	Glutamate formyltransferase	0.51	168	38	74	100.00	2	170	80.00
+FKABAFCN_01857	Glutamate formyltransferase	0.51	256	40	78	100.00	170	426	80.00
+FKABAFCN_01857	Glutamate formyltransferase	0.51	141	40	78	100.00	426	567	80.00
+FKABAFCN_01882	S-adenosylmethionine synthetase (EC 2.5.1.6)	1.00	429	100	100	100.00	1	430	74.00
+FKABAFCN_01889	3-dehydroquinate dehydratase II (EC 4.2.1.10)	1.00	137	5	5	100.00	1	138	90.00
+FKABAFCN_01893	Glycogen phosphorylase (EC 2.4.1.1)	1.00	851	5	5	100.00	1	852	96.00
+FKABAFCN_01941	(E)-4-hydroxy-3-methylbut-2-enyl-diphosphate synthase (flavodoxin) (EC 1.17.7.3)	0.60	632	3	5	99.80	1	633	91.00
+FKABAFCN_01974	(2E,6E)-farnesyl diphosphate synthase (EC 2.5.1.10)	0.50	325	2	4	100.00	1	326	87.00
+FKABAFCN_01974	Dimethylallyltransferase (EC 2.5.1.1)	0.50	325	2	4	100.00	1	326	87.00
+FKABAFCN_02009	4-hydroxy-tetrahydrodipicolinate reductase (EC 1.17.1.8)	1.00	250	5	5	100.00	1	251	96.00
+FKABAFCN_02013	Phosphopantetheine adenylyltransferase (EC 2.7.7.3)	1.00	151	5	5	99.30	1	152	87.00
+FKABAFCN_02017	Glucan 1,4-alpha-glucosidase (EC 3.2.1.3)	0.60	710	3	5	99.70	1	711	90.00
+FKABAFCN_02020	Glucosamine-6-phosphate deaminase (EC 3.5.99.6)	1.00	262	5	5	100.00	1	263	93.00
+FKABAFCN_02021	Glucosamine-6-phosphate deaminase (EC 3.5.99.6)	0.50	662	5	10	100.00	1	663	90.00
+FKABAFCN_02021	predicted N-acetylglucosamine-6-phosphate deacetylase (EC 3.5.1.25)	0.50	662	5	10	100.00	1	663	90.00
+FKABAFCN_02035	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase (EC 4.6.1.12)	1.00	155	5	5	100.00	2	157	95.00
+FKABAFCN_02039	2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase (EC 2.7.7.60)	1.00	228	5	5	99.60	1	229	85.00
+FKABAFCN_02047	Alpha-amylase (Neopullulanase) SusA (EC 3.2.1.135)	0.60	616	3	5	99.80	5	621	86.00
+FKABAFCN_02048	Pullulanase (EC 3.2.1.41)	0.50	636	5	10	100.00	1	637	90.00
+FKABAFCN_02049	4-alpha-glucanotransferase (amylomaltase) (EC 2.4.1.25)	1.00	896	5	5	99.80	1	897	87.00
+FKABAFCN_02050	Predicted maltose transporter, MFS family	0.98	437	98	100	99.10	1	438	72.20
+FKABAFCN_02051	Maltose operon transcriptional repressor MalR, LacI family	1.00	341	5	5	99.70	1	342	87.00
+FKABAFCN_02052	SusC, outer membrane protein involved in maltodextrin utilization	1.00	1009	5	5	99.70	1	1010	86.00
+FKABAFCN_02053	SusD, outer membrane protein involved in maltodextrin utilization	1.00	542	4	4	98.90	5	547	84.00
+FKABAFCN_02099	Shikimate kinase I (EC 2.7.1.71)	1.00	192	5	5	99.00	1	193	84.00
+FKABAFCN_02115	ATP:Cob(I)alamin adenosyltransferase (EC 2.5.1.17)	1.00	180	5	5	100.00	1	181	74.00
+FKABAFCN_02124	Glutamine synthetase type III, GlnN (EC 6.3.1.2)	1.00	727	100	100	99.90	1	728	79.10
+FKABAFCN_02140	2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase (EC 2.7.7.60)	1.00	238	2	2	100.00	1	239	92.00
+FKABAFCN_02147	Phosphoserine phosphatase (EC 3.1.3.3)	1.00	197	5	5	100.00	1	198	80.00
+FKABAFCN_02152	Nicotinate-nucleotide adenylyltransferase (EC 2.7.7.18)	1.00	187	5	5	98.90	1	188	80.00
+FKABAFCN_02159	1-deoxy-D-xylulose 5-phosphate reductoisomerase (EC 1.1.1.267)	1.00	54	99	99	99.20	1	55	70.20
+FKABAFCN_02159	1-deoxy-D-xylulose 5-phosphate reductoisomerase (EC 1.1.1.267)	1.00	257	100	100	99.20	55	312	70.20
+FKABAFCN_02159	1-deoxy-D-xylulose 5-phosphate reductoisomerase (EC 1.1.1.267)	1.00	70	99	99	99.20	312	382	70.20
+FKABAFCN_02168	L-asparaginase (EC 3.5.1.1)	1.00	341	5	5	100.00	1	342	94.00
+FKABAFCN_02171	Cystathionine beta-lyase (EC 4.4.1.8)	0.75	386	3	4	99.70	1	387	85.00
+FKABAFCN_02241	NADP-specific glutamate dehydrogenase (EC 1.4.1.4)	1.00	444	25	25	100.00	3	447	84.00
+FKABAFCN_02261	Beta-galactosidase (EC 3.2.1.23)	1.00	1345	5	5	99.40	1	1346	77.00
+FKABAFCN_02278	1-deoxy-D-xylulose 5-phosphate synthase (EC 2.2.1.7)	1.00	646	5	5	99.80	3	649	89.00

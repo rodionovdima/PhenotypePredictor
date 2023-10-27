@@ -1,0 +1,6 @@
+MAG	mcSEED_id	Similarity	Threshold	Group_Size	match_hash	mcSEED_genus	mcSEED_species	mcSEED_name	MAG_species	MAG_genus
+Prevotella_bivia_P39C7771104_E1_JG_bc1009	1287476.3	0.9853892	90%	5	5820	Prevotella	Prevotella bivia	Prevotella bivia DNF00188	Prevotella bivia	Prevotella
+Prevotella_bivia_P39C7771104_E1_JG_bc1009	1401068.3	0.9842538	90%	5	5606	Prevotella	Prevotella bivia	Prevotella bivia DNF00320	Prevotella bivia	Prevotella
+Prevotella_bivia_P39C7771104_E1_JG_bc1009	28125.4	0.9843189999999999	90%	5	5618	Prevotella	Prevotella bivia	Prevotella bivia strain GED7880	Prevotella bivia	Prevotella
+Prevotella_bivia_P39C7771104_E1_JG_bc1009	553171.3	0.9857432	90%	5	5889	Prevotella	Prevotella bivia	Prevotella bivia JCVIHMP010	Prevotella bivia	Prevotella
+Prevotella_bivia_P39C7771104_E1_JG_bc1009	868129.3	0.98587	90%	5	5914	Prevotella	Prevotella bivia	Prevotella bivia DSM 20514	Prevotella bivia	Prevotella

@@ -1,0 +1,110 @@
+MAG_species	MAG_genus	genome	CPNGsize	subsystem	phenotype	phenByRules	phenByMLranger	phenByNB	phenByAOrules	phenByAOml	phenConsensus	phenFlag	closestID	missing	excessive	phen0Count	phen1Count	maxGenesPhen0	minGenesPhen1
+Prevotella bivia	Prevotella	Prevotella_bivia_P39C7771104_E1_JG_bc1009	5	Thiamin HMP	B1	1	1	1	1	1	1	0	868129.3	0	0	0	5	-1	9
+Prevotella bivia	Prevotella	Prevotella_bivia_P39C7771104_E1_JG_bc1009	5	Riboflavin HMP	B2	1	1	1	1	1	1	0	868129.3	0	0	0	5	-1	8
+Prevotella bivia	Prevotella	Prevotella_bivia_P39C7771104_E1_JG_bc1009	5	NAD Niacin HMP	B3	1	1	1	1	1	1	0	868129.3	0	0	0	5	-1	6
+Prevotella bivia	Prevotella	Prevotella_bivia_P39C7771104_E1_JG_bc1009	5	CoA Pantothenate HMP	B5	1	1	1	1	1	1	0	868129.3	0	0	0	5	-1	10
+Prevotella bivia	Prevotella	Prevotella_bivia_P39C7771104_E1_JG_bc1009	5	Pyridoxin HMP	B6	1	1	1	1	1	1	0	868129.3	0	0	0	5	-1	4
+Prevotella bivia	Prevotella	Prevotella_bivia_P39C7771104_E1_JG_bc1009	5	Biotin HMP	B7	0	0	0	0	0	0	0	868129.3	0	0	5	0	1	-1
+Prevotella bivia	Prevotella	Prevotella_bivia_P39C7771104_E1_JG_bc1009	5	Folate HMP	B9	1	1	1	1	1	1	0	868129.3	0	0	0	5	-1	7
+Prevotella bivia	Prevotella	Prevotella_bivia_P39C7771104_E1_JG_bc1009	5	B12 Cobalamin HMP	B12	0	0	0	0	0	0	0	868129.3	0	0	5	0	6	-1
+Prevotella bivia	Prevotella	Prevotella_bivia_P39C7771104_E1_JG_bc1009	5	Queuosine HMP	Q	1	1	1	1	1	1	0	868129.3	0	0	0	5	-1	9
+Prevotella bivia	Prevotella	Prevotella_bivia_P39C7771104_E1_JG_bc1009	5	Lipoate HMP	LA	1	1	1	1	1	1	0	1287476.3	0	0	0	5	-1	2
+Prevotella bivia	Prevotella	Prevotella_bivia_P39C7771104_E1_JG_bc1009	5	Menaquinone biosynthesis HMP	MQ	1	1	1	1	1	1	0	868129.3	0	0	0	5	-1	8
+Prevotella bivia	Prevotella	Prevotella_bivia_P39C7771104_E1_JG_bc1009	5	Mevalonate & Isoprenoid Biosynthesis HMP	IMV	0	0	0	0	0	0	0	1287476.3	0	2	5	0	9	-1
+Prevotella bivia	Prevotella	Prevotella_bivia_P39C7771104_E1_JG_bc1009	5	Mevalonate & Isoprenoid Biosynthesis HMP	IDX	1	1	1	1	1	1	0	1287476.3	0	2	0	5	-1	8
+Prevotella bivia	Prevotella	Prevotella_bivia_P39C7771104_E1_JG_bc1009	5	Arginine HMP	Arg	0	0	0	0	0	0	0	868129.3	0	0	5	0	1	-1
+Prevotella bivia	Prevotella	Prevotella_bivia_P39C7771104_E1_JG_bc1009	5	Lysine HMP	Lys	1	1	1	1	1	1	0	868129.3	0	0	0	5	-1	7
+Prevotella bivia	Prevotella	Prevotella_bivia_P39C7771104_E1_JG_bc1009	5	Histidine HMP	His	0	0	0	0	0	0	0	868129.3	0	0	5	0	1	-1
+Prevotella bivia	Prevotella	Prevotella_bivia_P39C7771104_E1_JG_bc1009	5	Tryptophan HMP	Trp	0	0	0	0	0	0	0	868129.3	0	0	5	0	1	-1
+Prevotella bivia	Prevotella	Prevotella_bivia_P39C7771104_E1_JG_bc1009	5	Tyrosine Phenylalanine HMP	Tyr	0	0	0	0	0	0	0	868129.3	0	0	5	0	1	-1
+Prevotella bivia	Prevotella	Prevotella_bivia_P39C7771104_E1_JG_bc1009	5	Tyrosine Phenylalanine HMP	Phe	0	0	0	0	0	0	0	868129.3	0	0	5	0	1	-1
+Prevotella bivia	Prevotella	Prevotella_bivia_P39C7771104_E1_JG_bc1009	5	Chorismate HMP	Chor	1	1	1	1	1	1	0	868129.3	0	0	0	5	-1	8
+Prevotella bivia	Prevotella	Prevotella_bivia_P39C7771104_E1_JG_bc1009	5	Isoleucine Valine Leucine HMP	Ile	0	0	0	0	0	0	0	868129.3	0	0	5	0	1	-1
+Prevotella bivia	Prevotella	Prevotella_bivia_P39C7771104_E1_JG_bc1009	5	Isoleucine Valine Leucine HMP	Val	0	0	0	0	0	0	0	868129.3	0	0	5	0	1	-1
+Prevotella bivia	Prevotella	Prevotella_bivia_P39C7771104_E1_JG_bc1009	5	Isoleucine Valine Leucine HMP	Leu	0	0	0	0	0	0	0	868129.3	0	0	5	0	1	-1
+Prevotella bivia	Prevotella	Prevotella_bivia_P39C7771104_E1_JG_bc1009	5	Serine HMP	Ser	1	1	1	1	1	1	0	868129.3	0	0	0	5	-1	4
+Prevotella bivia	Prevotella	Prevotella_bivia_P39C7771104_E1_JG_bc1009	5	Cysteine HMP	Cys	1	1	1	1	1	1	0	868129.3	0	0	0	5	-1	3
+Prevotella bivia	Prevotella	Prevotella_bivia_P39C7771104_E1_JG_bc1009	5	Threonine HMP	Thr	0	0	0	0	0	0	0	868129.3	0	0	5	0	1	-1
+Prevotella bivia	Prevotella	Prevotella_bivia_P39C7771104_E1_JG_bc1009	5	Methionine HMP	Met	0	0	0	0	0	0	0	1287476.3	0	0	5	0	5	-1
+Prevotella bivia	Prevotella	Prevotella_bivia_P39C7771104_E1_JG_bc1009	5	Proline HMP	Pro	0	0	0	0	0	0	0	868129.3	0	0	5	0	0	-1
+Prevotella bivia	Prevotella	Prevotella_bivia_P39C7771104_E1_JG_bc1009	5	Glycine HMP	Gly	1	1	1	1	1	1	0	868129.3	0	0	0	5	-1	2
+Prevotella bivia	Prevotella	Prevotella_bivia_P39C7771104_E1_JG_bc1009	5	Glutamine Glutamate HMP	Glu	1	1	1	1	1	1	0	868129.3	0	0	0	5	-1	4
+Prevotella bivia	Prevotella	Prevotella_bivia_P39C7771104_E1_JG_bc1009	5	Glutamine Glutamate HMP	Gln	1	1	1	1	1	1	0	868129.3	0	0	0	5	-1	4
+Prevotella bivia	Prevotella	Prevotella_bivia_P39C7771104_E1_JG_bc1009	5	Aspartate Asparagine HMP	Asp	1	1	1	1	1	1	0	868129.3	0	0	0	5	-1	3
+Prevotella bivia	Prevotella	Prevotella_bivia_P39C7771104_E1_JG_bc1009	5	Aspartate Asparagine HMP	Asn	1	1	1	1	1	1	0	868129.3	0	0	0	5	-1	3
+Prevotella bivia	Prevotella	Prevotella_bivia_P39C7771104_E1_JG_bc1009	5	HMP Butyrate synthesis	Butyrate	0	0	0	0	0	0	0	868129.3	0	0	5	0	1	-1
+Prevotella bivia	Prevotella	Prevotella_bivia_P39C7771104_E1_JG_bc1009	5	HMP propionate synthesis	Propionate	0	0	0	0	0	0	0	868129.3	0	0	5	0	2	-1
+Prevotella bivia	Prevotella	Prevotella_bivia_P39C7771104_E1_JG_bc1009	5	HMP lactate-acetate-formate fermentation	L-Lactate	0	0	0	0	0	0	0	868129.3	0	0	5	0	3	-1
+Prevotella bivia	Prevotella	Prevotella_bivia_P39C7771104_E1_JG_bc1009	5	HMP lactate-acetate-formate fermentation	D-Lactate	0	0	0	0	0	0	0	868129.3	0	0	5	0	3	-1
+Prevotella bivia	Prevotella	Prevotella_bivia_P39C7771104_E1_JG_bc1009	5	HMP lactate-acetate-formate fermentation	Acetate	1	1	1	1	1	1	0	868129.3	0	0	0	5	-1	3
+Prevotella bivia	Prevotella	Prevotella_bivia_P39C7771104_E1_JG_bc1009	5	HMP lactate-acetate-formate fermentation	Formate	0	0	0	0	0	0	0	868129.3	0	0	5	0	3	-1
+Prevotella bivia	Prevotella	Prevotella_bivia_P39C7771104_E1_JG_bc1009	5	HMP lactate-acetate-formate fermentation	Ethanol	0	0	0	0	0	0	0	868129.3	0	0	5	0	3	-1
+Prevotella bivia	Prevotella	Prevotella_bivia_P39C7771104_E1_JG_bc1009	5	Glucose utilization HMP	Glc	1	1	1	1	1	1	0	868129.3	0	0	0	5	-1	3
+Prevotella bivia	Prevotella	Prevotella_bivia_P39C7771104_E1_JG_bc1009	5	Galactose & Tagatose utilization HMP	Gal	1	1	1	1	1	1	0	868129.3	0	0	0	5	-1	6
+Prevotella bivia	Prevotella	Prevotella_bivia_P39C7771104_E1_JG_bc1009	5	Galactose & Tagatose utilization HMP	Tag	0	0	0	0	0	0	0	868129.3	0	0	5	0	6	-1
+Prevotella bivia	Prevotella	Prevotella_bivia_P39C7771104_E1_JG_bc1009	5	Fructose utilization HMP	Fru	0	0	0	0	0	0	0	868129.3	0	0	5	0	0	-1
+Prevotella bivia	Prevotella	Prevotella_bivia_P39C7771104_E1_JG_bc1009	5	Mannose and Mannosides utilization HMP	Man	0	0	0	0	0	0	0	868129.3	0	0	5	0	4	-1
+Prevotella bivia	Prevotella	Prevotella_bivia_P39C7771104_E1_JG_bc1009	5	Mannose and Mannosides utilization HMP	(Man)n	0	0	0	0	0	0	0	868129.3	0	0	5	0	4	-1
+Prevotella bivia	Prevotella	Prevotella_bivia_P39C7771104_E1_JG_bc1009	5	Hexuronates utilization HMP	GlcA	0	0	0	0	0	0	0	868129.3	0	0	5	0	0	-1
+Prevotella bivia	Prevotella	Prevotella_bivia_P39C7771104_E1_JG_bc1009	5	Hexuronates utilization HMP	GalA	0	0	0	0	0	0	0	868129.3	0	0	5	0	0	-1
+Prevotella bivia	Prevotella	Prevotella_bivia_P39C7771104_E1_JG_bc1009	5	Hexuronates utilization HMP	(GlcA)n	0	0	0	0	0	0	0	868129.3	0	0	5	0	0	-1
+Prevotella bivia	Prevotella	Prevotella_bivia_P39C7771104_E1_JG_bc1009	5	Hexuronates utilization HMP	(GalA)n	0	0	0	0	0	0	0	868129.3	0	0	5	0	0	-1
+Prevotella bivia	Prevotella	Prevotella_bivia_P39C7771104_E1_JG_bc1009	5	N-Acetyl-Galactosamine and Galactosamine Utilization HMP	GalNAc	0	0	0	0	0	0	0	868129.3	0	0	5	0	1	-1
+Prevotella bivia	Prevotella	Prevotella_bivia_P39C7771104_E1_JG_bc1009	5	N-Acetyl-Galactosamine and Galactosamine Utilization HMP	GalN	0	0	0	0	0	0	0	868129.3	0	0	5	0	1	-1
+Prevotella bivia	Prevotella	Prevotella_bivia_P39C7771104_E1_JG_bc1009	5	Sialic acids utilization HMP	ManNAc	0	0	0	0	0	0	0	868129.3	0	0	5	0	4	-1
+Prevotella bivia	Prevotella	Prevotella_bivia_P39C7771104_E1_JG_bc1009	5	Sialic acids utilization HMP	NANA	0	0	0	0	0	0	0	868129.3	0	0	5	0	4	-1
+Prevotella bivia	Prevotella	Prevotella_bivia_P39C7771104_E1_JG_bc1009	5	Unsaturated glucuronate utilization HMP	ddGlcA	0	0	0	0	0	0	0	868129.3	0	0	5	0	0	-1
+Prevotella bivia	Prevotella	Prevotella_bivia_P39C7771104_E1_JG_bc1009	5	Xylose and xylosides utilization HMP	Xyl	0	0	0	0	0	0	0	868129.3	0	0	5	0	0	-1
+Prevotella bivia	Prevotella	Prevotella_bivia_P39C7771104_E1_JG_bc1009	5	Xylose and xylosides utilization HMP	XOS	0	0	0	0	0	0	0	868129.3	0	0	5	0	0	-1
+Prevotella bivia	Prevotella	Prevotella_bivia_P39C7771104_E1_JG_bc1009	5	Xylose and xylosides utilization HMP	aXyl	0	0	0	0	0	0	0	868129.3	0	0	5	0	0	-1
+Prevotella bivia	Prevotella	Prevotella_bivia_P39C7771104_E1_JG_bc1009	5	Arabinose and arabinosides utilization HMP	Ara	0	0	0	0	0	0	0	868129.3	0	0	5	0	0	-1
+Prevotella bivia	Prevotella	Prevotella_bivia_P39C7771104_E1_JG_bc1009	5	Arabinose and arabinosides utilization HMP	aAOS	0	0	0	0	0	0	0	868129.3	0	0	5	0	0	-1
+Prevotella bivia	Prevotella	Prevotella_bivia_P39C7771104_E1_JG_bc1009	5	Arabinose and arabinosides utilization HMP	bAOS	0	0	0	0	0	0	0	868129.3	0	0	5	0	0	-1
+Prevotella bivia	Prevotella	Prevotella_bivia_P39C7771104_E1_JG_bc1009	5	Fucose utilization HMP	Fuc	0	0	0	0	0	0	0	1287476.3	0	0	5	0	1	-1
+Prevotella bivia	Prevotella	Prevotella_bivia_P39C7771104_E1_JG_bc1009	5	Fucose utilization HMP	(Fuc)n	0	0	0	0	0	0	0	1287476.3	0	0	5	0	1	-1
+Prevotella bivia	Prevotella	Prevotella_bivia_P39C7771104_E1_JG_bc1009	5	Fucose utilization HMP	FL	0	0	0	0	0	0	0	1287476.3	0	0	5	0	1	-1
+Prevotella bivia	Prevotella	Prevotella_bivia_P39C7771104_E1_JG_bc1009	5	Rhamnose and rhamnosides utilization HMP	Rha	0	0	0	0	0	0	0	868129.3	0	0	5	0	0	-1
+Prevotella bivia	Prevotella	Prevotella_bivia_P39C7771104_E1_JG_bc1009	5	Rhamnose and rhamnosides utilization HMP	Rhi	0	0	0	0	0	0	0	868129.3	0	0	5	0	0	-1
+Prevotella bivia	Prevotella	Prevotella_bivia_P39C7771104_E1_JG_bc1009	5	Ribose utilization HMP	Rbs	0	0	0	0	0	0	0	868129.3	0	0	5	0	0	-1
+Prevotella bivia	Prevotella	Prevotella_bivia_P39C7771104_E1_JG_bc1009	5	Gluconate utilization HMP	Gnt	0	0	0	0	0	0	0	868129.3	0	0	5	0	0	-1
+Prevotella bivia	Prevotella	Prevotella_bivia_P39C7771104_E1_JG_bc1009	5	Maltose and Maltodextrin utilization HMP	Mal	1	1	1	1	1	1	0	1401068.3	1	0	0	5	-1	14
+Prevotella bivia	Prevotella	Prevotella_bivia_P39C7771104_E1_JG_bc1009	5	Maltose and Maltodextrin utilization HMP	(Mal)n	1	1	1	1	1	1	0	1401068.3	1	0	0	5	-1	14
+Prevotella bivia	Prevotella	Prevotella_bivia_P39C7771104_E1_JG_bc1009	5	Sucrose and Fructosides utilization HMP	Scr	0	0	0	0	0	0	0	868129.3	0	0	5	0	0	-1
+Prevotella bivia	Prevotella	Prevotella_bivia_P39C7771104_E1_JG_bc1009	5	Sucrose and Fructosides utilization HMP	FOS	0	0	0	0	0	0	0	868129.3	0	0	5	0	0	-1
+Prevotella bivia	Prevotella	Prevotella_bivia_P39C7771104_E1_JG_bc1009	5	Trehalose utilization HMP	Tre	0	0	0	0	0	0	0	868129.3	0	0	5	0	2	-1
+Prevotella bivia	Prevotella	Prevotella_bivia_P39C7771104_E1_JG_bc1009	5	N-Acetylglucosamine HMP	GlcNAc	0	0	0	0	0	0	0	868129.3	0	0	5	0	5	-1
+Prevotella bivia	Prevotella	Prevotella_bivia_P39C7771104_E1_JG_bc1009	5	N-Acetylglucosamine HMP	Chb	0	0	0	0	0	0	0	868129.3	0	0	5	0	5	-1
+Prevotella bivia	Prevotella	Prevotella_bivia_P39C7771104_E1_JG_bc1009	5	N-Acetylglucosamine HMP	Lnb	0	0	0	0	0	0	0	868129.3	0	0	5	0	5	-1
+Prevotella bivia	Prevotella	Prevotella_bivia_P39C7771104_E1_JG_bc1009	5	N-acetylmuramic acid HMP	MurNac	0	0	0	0	0	0	0	868129.3	0	0	5	0	4	-1
+Prevotella bivia	Prevotella	Prevotella_bivia_P39C7771104_E1_JG_bc1009	5	Beta-galactosides utilization HMP	Lac	0	0	0	0	0	0	0	868129.3	0	0	5	0	1	-1
+Prevotella bivia	Prevotella	Prevotella_bivia_P39C7771104_E1_JG_bc1009	5	Beta-galactosides utilization HMP	GOS	0	0	0	0	0	0	0	868129.3	0	0	5	0	1	-1
+Prevotella bivia	Prevotella	Prevotella_bivia_P39C7771104_E1_JG_bc1009	5	Alpha-galactosides utilization HMP	Aga	0	0	0	0	0	0	0	868129.3	0	0	5	0	0	-1
+Prevotella bivia	Prevotella	Prevotella_bivia_P39C7771104_E1_JG_bc1009	5	Alpha-galactosides utilization HMP	Mel	0	0	0	0	0	0	0	868129.3	0	0	5	0	0	-1
+Prevotella bivia	Prevotella	Prevotella_bivia_P39C7771104_E1_JG_bc1009	5	Alpha-galactosides utilization HMP	Raf	0	0	0	0	0	0	0	868129.3	0	0	5	0	0	-1
+Prevotella bivia	Prevotella	Prevotella_bivia_P39C7771104_E1_JG_bc1009	5	Beta-glucosides utilization HMP	Bgl	0	0	0	0	0	0	0	868129.3	0	1	5	0	0	-1
+Prevotella bivia	Prevotella	Prevotella_bivia_P39C7771104_E1_JG_bc1009	5	Hyaluronate utilization HMP	Hyl	0	0	0	0	0	0	0	868129.3	0	0	5	0	0	-1
+Prevotella bivia	Prevotella	Prevotella_bivia_P39C7771104_E1_JG_bc1009	5	Allose utilization HMP	All	0	0	0	0	0	0	0	868129.3	0	0	5	0	0	-1
+Prevotella bivia	Prevotella	Prevotella_bivia_P39C7771104_E1_JG_bc1009	5	Sugar Alcohols utilization HMP	Mtl	0	0	0	0	0	0	0	868129.3	0	0	5	0	0	-1
+Prevotella bivia	Prevotella	Prevotella_bivia_P39C7771104_E1_JG_bc1009	5	Sugar Alcohols utilization HMP	Atl	0	0	0	0	0	0	0	868129.3	0	0	5	0	0	-1
+Prevotella bivia	Prevotella	Prevotella_bivia_P39C7771104_E1_JG_bc1009	5	Sugar Alcohols utilization HMP	Xlt	0	0	0	0	0	0	0	868129.3	0	0	5	0	0	-1
+Prevotella bivia	Prevotella	Prevotella_bivia_P39C7771104_E1_JG_bc1009	5	Sugar Alcohols utilization HMP	Srl	0	0	0	0	0	0	0	868129.3	0	0	5	0	0	-1
+Prevotella bivia	Prevotella	Prevotella_bivia_P39C7771104_E1_JG_bc1009	5	Sugar Alcohols utilization HMP	Gtl	0	0	0	0	0	0	0	868129.3	0	0	5	0	0	-1
+Prevotella bivia	Prevotella	Prevotella_bivia_P39C7771104_E1_JG_bc1009	5	Sugar Alcohols utilization HMP	Rtl	0	0	0	0	0	0	0	868129.3	0	0	5	0	0	-1
+Prevotella bivia	Prevotella	Prevotella_bivia_P39C7771104_E1_JG_bc1009	5	HMP Inositol	Ino	0	0	0	0	0	0	0	868129.3	0	0	5	0	0	-1
+Prevotella bivia	Prevotella	Prevotella_bivia_P39C7771104_E1_JG_bc1009	5	Fructose-asparagine utilization HMP	FruAsp	0	0	0	0	0	0	0	868129.3	0	0	5	0	1	-1
+Prevotella bivia	Prevotella	Prevotella_bivia_P39C7771104_E1_JG_bc1009	5	Fructoselysine and Glucoselysine utilization HMP	FruLys	0	0	0	0	0	0	0	868129.3	0	0	5	0	0	-1
+Prevotella bivia	Prevotella	Prevotella_bivia_P39C7771104_E1_JG_bc1009	5	Fructoselysine and Glucoselysine utilization HMP	GlcLys	0	0	0	0	0	0	0	868129.3	0	0	5	0	0	-1
+Prevotella bivia	Prevotella	Prevotella_bivia_P39C7771104_E1_JG_bc1009	5	Fructoselysine and Glucoselysine utilization HMP	PsiLys	0	0	0	0	0	0	0	868129.3	0	0	5	0	0	-1
+Prevotella bivia	Prevotella	Prevotella_bivia_P39C7771104_E1_JG_bc1009	5	Ethanolamine utilization HMP	Eut_ut	0	0	0	0	0	0	0	868129.3	0	0	5	0	0	-1
+Prevotella bivia	Prevotella	Prevotella_bivia_P39C7771104_E1_JG_bc1009	5	Butyrate utilization HMP	But_ut	0	0	0	0	0	0	0	868129.3	0	0	5	0	0	-1
+Prevotella bivia	Prevotella	Prevotella_bivia_P39C7771104_E1_JG_bc1009	5	Propanediol utilization HMP	PD_ut	0	0	0	0	0	0	0	868129.3	0	0	5	0	0	-1
+Prevotella bivia	Prevotella	Prevotella_bivia_P39C7771104_E1_JG_bc1009	5	Lactate utilization HMP	Lac_ut	1	1	1	1	1	1	0	868129.3	0	0	0	5	-1	4
+Prevotella bivia	Prevotella	Prevotella_bivia_P39C7771104_E1_JG_bc1009	5	Bile acids HMP	CA_d	0	0	0	0	0	0	0	868129.3	0	0	5	0	0	-1
+Prevotella bivia	Prevotella	Prevotella_bivia_P39C7771104_E1_JG_bc1009	5	Bile acids HMP	BA_t	0	0	0	0	0	0	0	868129.3	0	0	5	0	0	-1
+Prevotella bivia	Prevotella	Prevotella_bivia_P39C7771104_E1_JG_bc1009	5	Urea degradation HMP	Urea_d	0	0	0	0	0	0	0	868129.3	0	0	5	0	0	-1
+Prevotella bivia	Prevotella	Prevotella_bivia_P39C7771104_E1_JG_bc1009	5	Proline degradation HMP	Pro_d	0	0	0	0	0	0	0	868129.3	0	0	5	0	0	-1
+Prevotella bivia	Prevotella	Prevotella_bivia_P39C7771104_E1_JG_bc1009	5	Threonine degradation HMP	Thr_d	1	1	1	1	1	1	0	868129.3	0	0	0	5	-1	3
+Prevotella bivia	Prevotella	Prevotella_bivia_P39C7771104_E1_JG_bc1009	5	Methionine degradation HMP	Met_d	0	0	0	0	0	0	0	868129.3	0	0	5	0	0	-1
+Prevotella bivia	Prevotella	Prevotella_bivia_P39C7771104_E1_JG_bc1009	5	Histidine degradation HMP	His_d	1	1	1	1	1	1	0	868129.3	1	0	0	5	-1	6
+Prevotella bivia	Prevotella	Prevotella_bivia_P39C7771104_E1_JG_bc1009	5	Lysine degradation HMP	Lys_d	0	0	0	0	0	0	0	868129.3	0	0	5	0	0	-1
+Prevotella bivia	Prevotella	Prevotella_bivia_P39C7771104_E1_JG_bc1009	5	Tryptophan degradation HMP	Trp_d	0	0	0	0	0	0	0	868129.3	0	0	5	0	0	-1

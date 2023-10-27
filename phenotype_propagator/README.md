@@ -12,21 +12,31 @@ This approach identifies reference bacteria that are closely related to the targ
 ## Consensus phenotype prediction.
 We established a procedure to reconcile inconsistent phenotype predictions between the three strategies described above, based on observing discordant gene patterns and/or discordant predicted phenotypes within a given group of neighbor genomes. In the rare case of irreconcilable disagreement between the prediction methods, assignment of a consensus phenotype defaulted to that produced by the ML method. We assigned consensus confidence scores to each prediction based on the degree of concordance between the three techniques and our confidence in the accuracy of each.
 The complete phenotype prediction process was validated using the 2,856 reference genomes in the mcSEED database, their functionally annotated genes and the accompanying patterns of presence/absence of functional metabolic pathways (curator-inferred binary phenotypes). 
-The consensus phenotype predictions are combined into a binary phenotype matrix (BPM) containing the complete set of target genomes/MAGs and 106 phenotypes (output file 'consensusBPM.txt'). The obatined for each predicted phenotype confidence codees are also provided (output file 'confidenceBPM.txt').
-Methods used for Consensus Phenotype assignment:
+The consensus phenotype predictions are combined into a binary phenotype matrix (BPM) containing the complete set of target genomes/MAGs and 106 phenotypes (output file `consensusBPM.txt`). The obatined for each predicted phenotype confidence codees are also provided (output file `confidenceBPM.txt`).
+### Methods used for Consensus Phenotype assignment:
 PR	Pathway Rule-based phenotypes
+
 ML	Machine Learning (ML) model-based phenotypes 
-NG	Neighbor Group-based phenotypes 
+
+NG	Neighbor Group-based phenotypes
+ 
 PRc	NG-corrected PR phenotypes
+
 MLc	NG-corrected ML phenotypes
 
-Confidence codes of Consensus Phenotype assignments:
+### Confidence codes of Consensus Phenotype assignments:
 c	consistent phenotypes (with NG)
+
 c3	consistent phenotypes (without NG)
-n0	Inconsistencies between PR/ML & NG (resolved for PR/ML):
-n1	Inconsistencies between PR/ML & NG (resolved for NG):
-n2	Inconsistencies between either PR or ML & NG (resolved for NG):
+
+n0	Inconsistencies between PR/ML & NG (resolved for PR/ML)
+
+n1	Inconsistencies between PR/ML & NG (resolved for NG)
+
+n2	Inconsistencies between either PR or ML & NG (resolved for NG)
+
 n3	Conflict between PR & ML when neighbors are absent
+
 n4	Other inconsistences between any of methods
 
 ## Prerequisites
@@ -38,6 +48,7 @@ n4	Other inconsistences between any of methods
   - yaml
 
 ## Running Phenotype Propagator
-To run the pipeline first prepare the input file by placing them into input/annotation (danatello outputs with mcSEED functional annotations for each target genome/MAG) and input/mash_groups (neighbor groups obtained by mash_group script).
-Then update the PhenotypePropagator.yaml config file (including root_dir and other directories)
-Then run 'Rscript PhenotypePropagator.R' 
+To run the pipeline first prepare the input files by placing them into `input/annotation` (danatello outputs with mcSEED functional annotations for each target genome/MAG) and `input/mash_groups` (neighbor groups obtained by mash_group script).
+Then update `PhenotypePropagator.yaml` config file (including `root_dir` and other directories)
+
+Finally, run `Rscript PhenotypePropagator.R` 
