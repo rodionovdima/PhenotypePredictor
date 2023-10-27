@@ -14,30 +14,30 @@ We established a procedure to reconcile inconsistent phenotype predictions betwe
 The complete phenotype prediction process was validated using the 2,856 reference genomes in the mcSEED database, their functionally annotated genes and the accompanying patterns of presence/absence of functional metabolic pathways (curator-inferred binary phenotypes). 
 The consensus phenotype predictions are combined into a binary phenotype matrix (BPM) containing the complete set of target genomes/MAGs and 106 phenotypes (output file `consensusBPM.txt`). The obatined for each predicted phenotype confidence codees are also provided (output file `confidenceBPM.txt`).
 ### Methods used for Consensus Phenotype assignment:
-PR	Pathway Rule-based phenotypes
+PR - Pathway Rule-based phenotypes
 
-ML	Machine Learning (ML) model-based phenotypes 
+ML - Machine Learning model-based phenotypes 
 
-NG	Neighbor Group-based phenotypes
+NG - Neighbor Group-based phenotypes
  
-PRc	NG-corrected PR phenotypes
+PRc - NG-corrected PR phenotypes
 
-MLc	NG-corrected ML phenotypes
+MLc - NG-corrected ML phenotypes
 
 ### Confidence codes of Consensus Phenotype assignments:
-c	consistent phenotypes (with NG)
+c - consistent phenotypes (with NG)
 
-c3	consistent phenotypes (without NG)
+c3 - consistent phenotypes (without NG)
 
-n0	Inconsistencies between PR/ML & NG (resolved for PR/ML)
+n0 - Inconsistencies between PR/ML & NG (resolved for PR/ML)
 
-n1	Inconsistencies between PR/ML & NG (resolved for NG)
+n1 - Inconsistencies between PR/ML & NG (resolved for NG)
 
-n2	Inconsistencies between either PR or ML & NG (resolved for NG)
+n2 - Inconsistencies between either PR or ML & NG (resolved for NG)
 
-n3	Conflict between PR & ML when neighbors are absent
+n3 - Conflict between PR & ML when neighbors are absent
 
-n4	Other inconsistences between any of methods
+n4 - Other inconsistences between any of methods
 
 ## Prerequisites
 
