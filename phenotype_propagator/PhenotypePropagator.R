@@ -1,4 +1,4 @@
-library(data.table)
+library(data.table)                                                     
 library(openxlsx)
 library(caret)
 library(yaml)
@@ -146,10 +146,8 @@ refGroupsPATH <- file.path(config$root_dir,config$groups_dir,"group_table.txt")
 refGroups <- read.csv(refGroupsPATH,sep='\t',colClasses = "character")
 refGroups <- data.table(refGroups)
 
-#wbMAG <- createWorkbook()
+# Main script start here
 wbFull <- createWorkbook()
-#wbShort <- createWorkbook()
-
 results <- data.table()
 
 prevSubsystem <- '-1'
@@ -222,6 +220,7 @@ for(p in 1:nrow(subsRef)){
     nbIDs <- CPNG$id
     CPNG[, id:=NULL]
     
+#Size of neighbor group of reference genomes
     CPNGsize <- nrow(CPNG)
     
     if(CPNGsize < 1){
@@ -304,37 +303,11 @@ for(p in 1:nrow(subsRef)){
       AOflag <- -1
     }
 
-# Filter, RAST
-
     phenByMLranger <- as.integer(as.character(phenByMLranger))
     phenByNB <- as.integer(as.character(phenByNB))
-    if(phenByRules == phenByMLranger && phenByMLranger == phenByNB && phenByNB == phenByAOrules && phenByAOrules == phenByAOml && AOflag == 0){
-      errorType <- 'OK'
-      errorType2 <- paste0('OK-',phenByRules)
-    } else if(phenByRules == phenByMLranger && phenByMLranger == phenByNB && phenByNB == phenByAOrules && phenByAOrules == phenByAOml && AOflag == 1) {
-      errorType <- 'warningFlag'
-      errorType2 <- 'WF-0'
-    } else if(phenByNB==-1 && phenByRules == phenByMLranger) {
-      errorType <- 'warningNoNB'
-      errorType2 <- paste0('NNB-',phenByRules)
-    } else if(phenByNB==-1 && (phenByRules != phenByMLranger)) {
-      errorType <- 'errorNoNB'
-      errorType2 <- 'ENNB'
-    } else if(AOflag==1) {
-      errorType <- 'errorIsFlag'
-      errorType2 <- paste0('EIF-',phenByRules,phenByMLranger,phenByNB)
-    } else if(AOflag==0) {
-      errorType <- 'errorNoFlag' 
-      errorType2 <- paste0('ENF-',phenByRules,phenByMLranger,phenByNB)
-    } else {
-      errorType <- 'Unknown'
-    }
-    
+  
    
 # Assignment of Consensus phenotypes and Confidence codes using both the PR, ML, and NG-based phenotypes as well as the neighbor-corrected PR and ML phenotypes 
-    Consensus <- "-1"
-    ConsensusDetails <- "-1"
-
     ConsensusMat <- "-1"
     ConfidenceMat <- "-1"
     if(phenByRules == 1 && phenByMLranger == 1 && phenByNB == 1 && phenByAOrules == 1 && phenByAOml == 1){
@@ -407,40 +380,25 @@ for(p in 1:nrow(subsRef)){
       stop("Unknown consensus!")
     }
       
-    results <- rbind(results,data.table("MAG_species"=MAG_species,
-                                        "MAG_genus"=MAG_genus,
+    results <- rbind(results,data.table("species"=MAG_species,
+                                        "genus"=MAG_genus,
                                         "genome"=genome,
-                                        "CPNGsize"=CPNGsize,
+                                        "group_size"=CPNGsize,
                                         "subsystem"=curSubsystem,
                                         "phenotype"=curPhenotype,
-                                        "phenByRules"=phenByRules,
-                                        "phenByMLranger"=phenByMLranger,
-                                        "phenByNB"=phenByNB,
-                                        "phenByAOrules"=phenByAOrules,
-                                        "phenByAOml"=phenByAOml,
-                                        "phenConsensus"=ConsensusMat,
-                                        "phenConfidence"=ConfidenceMat,
-                                        "closestID"=closestID,
-                                        "missing"=missing,
-                                        "excessive"=excessive,
-                                        "phen0Count"=phen0Count,
-                                        "phen1Count"=phen1Count,
-                                        "maxGenesPhen0"=maxGenesPhen0,
-                                        "minGenesPhen1"=minGenesPhen1
+                                        "phen_PR"=phenByRules,
+                                        "phen_ML"=phenByMLranger,
+                                        "phen_NG"=phenByNB,
+                                        "phen_PR_corrected"=phenByAOrules,
+                                        "phen_ML_corrected"=phenByAOml,
+                                        "phen_Consensus"=ConsensusMat,
+                                        "phen_Confidence"=ConfidenceMat
     ))
     
-    resultsConsensus <- c(resultsConsensus,Consensus)
-    resultsConsensusDetails <- c(resultsConsensusDetails,ConsensusDetails)
     resultsConsensusMat <- c(resultsConsensusMat,ConsensusMat)
     resultsConfidenceMat <- c(resultsConfidenceMat,ConfidenceMat)
   }    
-#  curSubsystem30char <- substr(curSubsystem,1,30)
-#  if(prevSubsystem != curSubsystem){
-#    addWorksheet(wbMAG,curSubsystem30char)
-#    writeData(wbMAG,sheet=subsSheetNo,curSubsystem)
-#    writeData(wbMAG,sheet=subsSheetNo,data4write,startRow=2)
-#    subsSheetNo <- subsSheetNo + 1
-#  }
+
   prevSubsystem <- curSubsystem
 
 # Detailed output for each metabolic subsystem and phenotype
@@ -454,6 +412,7 @@ for(p in 1:nrow(subsRef)){
    conditionalFormatting(wbFull,sheet=p,rows=2:(nrow(subsResults)+1),cols=(ncol(subsResults)+1):(ncol(subsResults)+ncol(data4write)),type="contains",rule="1",yesStyle)
    conditionalFormatting(wbFull,sheet=p,rows=2:(nrow(subsResults)+1),cols=(ncol(subsResults)+1):(ncol(subsResults)+ncol(data4write)),type="contains",rule="0",noStyle)
   }
+saveWorkbook(wbFull,file.path(OUTPUT_DIR,"Phenotype_prediction_detailed.xlsx"), overwrite = TRUE)
   
 # Short output of Consensus Phenotypes and Confidence Codes
   if(nrow(results) > 0){ 
@@ -464,22 +423,14 @@ for(p in 1:nrow(subsRef)){
   }
 }
 
-saveWorkbook(wbFull,file.path(OUTPUT_DIR,"MAGpredictionsFull.xlsx"), overwrite = TRUE)
-
-tableConsensusMat <- cbind("MAG_species"=subsResults$MAG_species,
-                               "MAG_genus"=subsResults$MAG_genus,
+tableConsensusMat <- cbind("species"=subsResults$species,
+                               "genus"=subsResults$genus,
                                "genome"=subsResults$genome,
-                               "filter"=subsResults$filter,
-                               "RAST"=subsResults$RAST,
-                               tableConsensusMat)
-
+                                tableConsensusMat)
 write.table(tableConsensusMat,file.path(OUTPUT_DIR,"consensusBPM.txt"),sep='\t',row.names = FALSE,quote = FALSE)
 
-tableConfidenceMat <- cbind("MAG_species"=subsResults$MAG_species,
-                               "MAG_genus"=subsResults$MAG_genus,
+tableConfidenceMat <- cbind("species"=subsResults$species,
+                               "genus"=subsResults$genus,
                                "genome"=subsResults$genome,
-                               "filter"=subsResults$filter,
-                               "RAST"=subsResults$RAST,
-                               tableConfidenceMat)
-
+                                tableConfidenceMat)
 write.table(tableConfidenceMat,file.path(OUTPUT_DIR,"confidenceBPM.txt"),sep='\t',row.names = FALSE,quote = FALSE)

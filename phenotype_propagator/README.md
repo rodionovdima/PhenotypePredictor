@@ -13,7 +13,34 @@ This approach identifies reference bacteria that are closely related to the targ
 We established a procedure to reconcile inconsistent phenotype predictions between the three strategies described above, based on observing discordant gene patterns and/or discordant predicted phenotypes within a given group of neighbor genomes. In the rare case of irreconcilable disagreement between the prediction methods, assignment of a consensus phenotype defaulted to that produced by the ML method. We assigned consensus confidence scores to each prediction based on the degree of concordance between the three techniques and our confidence in the accuracy of each.
 The complete phenotype prediction process was validated using the 2,856 reference genomes in the mcSEED database, their functionally annotated genes and the accompanying patterns of presence/absence of functional metabolic pathways (curator-inferred binary phenotypes). 
 The consensus phenotype predictions are combined into a binary phenotype matrix (BPM) containing the complete set of target genomes/MAGs and 106 phenotypes (output file `consensusBPM.txt`). The obatined for each predicted phenotype confidence codees are also provided (output file `confidenceBPM.txt`).
-### Methods used for Consensus Phenotype assignment:
+
+For assignment of Consensus Phenotype we use five methods and the following rules:
+
+| **PR** | **ML** | **NG** | **PRc** | **MLc** | **Consensus** | **Confidence** |
+| ------ | ------ | ------ | ------- | ------- | ------------- | -------------- |
+| 0      | 0      | 0      | 0       | 0       | 0             | c              |
+| 1      | 1      | 1      | 1       | 1       | 1             | c              |
+| 0      | 0      | 1      | 0       | 0       | 0             | n0             |
+| 1      | 1      | 0      | 1       | 1       | 1             | n0             |
+| 0      | 0      | 1      | 1       | 1       | 1             | n1             |
+| 1      | 0      | 1      | 1       | 1       | 1             | n2             |
+| 0      | 1      | 1      | 1       | 1       | 1             | n2             |
+| 1      | 1      | 0      | 0       | 0       | 0             | n1             |
+| 1      | 0      | 0      | 1       | 0       | 0             | n4             |
+| 1      | 0      | 0      | 0       | 0       | 0             | n2             |
+| 0      | 1      | 1      | 0       | 1       | 1             | n4             |
+| 1      | 0      | 1      | 1       | 0       | 0             | n4             |
+| 0      | 1      | 0      | 0       | 1       | 1             | n4             |
+| 0      | 1      | 0      | 0       | 0       | 0             | n2             |
+| 0      | 0      | \-1    | \-1     | \-1     | 0             | c3             |
+| 1      | 1      | \-1    | \-1     | \-1     | 1             | c3             |
+| 1      | 0      | \-1    | \-1     | \-1     | 0             | n3             |
+| 0      | 1      | \-1    | \-1     | \-1     | 1             | n3             |
+| 0      | 0      | 1      | 0       | 1       | 0             | n4             |
+| 0      | 0      | 1      | 1       | 0       | 0             | n4             |
+| 1      | 1      | 0      | 1       | 0       | 1             | n4             |
+| 1      | 1      | 0      | 0       | 1       | 1             | n4             |
+### Abbreviations for binary phenotypes assigned by five methods:
 PR - Pathway Rule-based phenotypes
 
 ML - Machine Learning model-based phenotypes 
@@ -24,7 +51,7 @@ PRc - NG-corrected PR phenotypes
 
 MLc - NG-corrected ML phenotypes
 
-### Confidence codes of Consensus Phenotype assignments:
+### Confidence codes of Consensus Phenotype assignment:
 c - consistent phenotypes (with NG)
 
 c3 - consistent phenotypes (without NG)
