@@ -82,5 +82,7 @@ Finally, run `Rscript PhenotypePropagator.R`
 
 ## Output files
 `consensusBPM.txt` - The main output file containing consensus phenotype predictions for each target genomes/MAGs and each of 106 phenotypes. The output is presented in a form of Binary Phenotype Matrix (BPM). 
+
 `confidenceBPM.txt` - Additional output file containing confidence codes for each predicted phenotype in BPM.
+
 `Phenotype_prediction_detailed.xlsx` - Detailed output file containing phenotype predictions by each of 5 methods, consensus phenotype and confidence code, the size of neighbor group (if any) and the distribution of metabolic pathway genes in each target genome.
