@@ -1,0 +1,2 @@
+id	genus	species
+example_genomeID	example_genus	example_species
