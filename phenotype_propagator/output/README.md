@@ -1,1 +1,0 @@
-This is output folder that need to be created and left empty.

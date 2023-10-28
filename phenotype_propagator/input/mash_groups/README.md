@@ -1,1 +1,0 @@
-Put the mash group output files here (group_table.txt and summary_table.txt).
